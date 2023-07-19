@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="320dp"
+        android:background="#ED850D"
+        android:layout_margin="0dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are You Sure You Wont You Exit ?"
+        android:textStyle="bold"
+        android:textColor="#F3F0EB"
+        android:fontFamily="serif-monospace"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="220dp"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_marginBottom="20dp"
+        android:text="RATE"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#919495"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="11dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="35dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:text="YES"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#919495"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="119dp"
+        android:background="@color/white"
+        android:paddingTop="16dp"
+        android:paddingLeft="35dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:text="NO"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#919495"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="227dp"
+        android:background="@color/white"
+        android:paddingTop="16dp"
+        android:paddingLeft="35dp"/>
+
+</RelativeLayout>
