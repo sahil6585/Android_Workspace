@@ -1,1 +1,1 @@
-
+Android R. java is an auto-generated file by aapt (Android Asset Packaging Tool).
