@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_bird">
+
+    <fragment
+        android:id="@+id/navigation_animal"
+        android:name="com.example.bottom_nev.AnimalFragment"
+        android:label="Animals"
+        tools:layout="@layout/fragment_animal" />
+
+    <fragment
+        android:id="@+id/navigation_bird"
+        android:name="com.example.bottom_nev.BirdsFragment"
+        android:label="Birds"
+        tools:layout="@layout/fragment_birds" />
+
+    <fragment
+        android:id="@+id/navigation_fruit"
+        android:name="com.example.bottom_nev.FruitsFragment"
+        android:label="Fruits"
+        tools:layout="@layout/fragment_fruits" />
+</navigation>

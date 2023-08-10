@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_animal"
+        android:icon="@drawable/baseline_fastfood_24"
+        android:title="Animal" />
+
+    <item
+        android:id="@+id/navigation_bird"
+        android:icon="@drawable/baseline_image_24"
+        android:title="Birds" />
+
+    <item
+        android:id="@+id/navigation_fruit"
+        android:icon="@drawable/baseline_fastfood_24"
+        android:title="Fruits" />
+
+</menu>
