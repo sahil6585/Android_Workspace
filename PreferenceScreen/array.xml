@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="privecy">
+
+        <item>Everyone</item>
+        <item>My Contact</item>
+        <item>No Body</item>
+
+    </string-array>
+
+    <string-array name="privecy_value">
+
+        <item>Everyone can show </item>
+        <item>Ony My Contact can show</item>
+        <item>No Body show</item>
+
+    </string-array>
+
+</resources>
