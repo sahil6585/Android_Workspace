@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertActivity"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/cricketerName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="10dp"
+        android:hint="ENTER CRICKETER NAME"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="#404040"
+        android:textColorHint="#404040"
+        android:textSize="12sp"
+        android:background="@drawable/edt_shape"
+        />
+    <EditText
+        android:id="@+id/cricketerAge"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="10dp"
+        android:hint="ENTER CRICKETER AGE"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="#404040"
+        android:textColorHint="#404040"
+        android:textSize="12sp"
+        android:background="@drawable/edt_shape"
+        />
+    <EditText
+        android:id="@+id/cricketerTotalScore"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="10dp"
+        android:hint="ENTER CRICKETER TOTAL SCORE"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="#404040"
+        android:textColorHint="#404040"
+        android:textSize="12sp"
+        android:background="@drawable/edt_shape"
+        />
+    <EditText
+        android:id="@+id/cricketerWickets"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="10dp"
+        android:hint="ENTER CRICKETER WICKETS"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="#404040"
+        android:textColorHint="#404040"
+        android:textSize="12sp"
+        android:background="@drawable/edt_shape"
+        />
+    <EditText
+    android:id="@+id/cricketerHighestScore"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginTop="15dp"
+    android:drawablePadding="10dp"
+    android:hint="ENTER CRICKETER HIGHEST SCORE"
+    android:gravity="center"
+    android:padding="15dp"
+    android:textColor="#404040"
+    android:textColorHint="#404040"
+    android:textSize="12sp"
+    android:background="@drawable/edt_shape"
+    />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/insert"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="INSERT RECORD"
+        android:background="@drawable/btn_shape"
+        android:backgroundTint="#9FA1A3"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>
