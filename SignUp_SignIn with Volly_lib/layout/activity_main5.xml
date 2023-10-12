@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:orientation="vertical">
+
+
+
+
+    <EditText
+        android:id="@+id/edtpname"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edt_shape"
+        android:drawablePadding="10dp"
+        android:hint="Enter Product Name"
+        android:padding="15dp"
+        android:textColor="#404040"
+        android:textColorHint="#404040"
+        android:textSize="12sp"
+        android:autofillHints="password" />
+    <EditText
+        android:id="@+id/edtpprice"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edt_shape"
+        android:drawablePadding="10dp"
+        android:hint="Enter Product Price"
+        android:padding="15dp"
+        android:textColor="#404040"
+        android:textColorHint="#404040"
+        android:textSize="12sp"
+        android:autofillHints="password" />
+    <EditText
+        android:id="@+id/edtdes"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edt_shape"
+
+        android:drawablePadding="10dp"
+        android:hint="Enter Product Description"
+        android:padding="15dp"
+        android:textColor="#404040"
+        android:textColorHint="#404040"
+        android:textSize="12sp"
+        android:autofillHints="password" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/update"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:background="@drawable/btn_shape"
+        android:backgroundTint="#9FA1A3"
+      android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
