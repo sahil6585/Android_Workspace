@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   app:cardCornerRadius="30dp"
+    app:cardBackgroundColor="#B4D9F3"
+    app:cardElevation="50dp"
+    app:cardPreventCornerOverlap="true"
+    android:outlineSpotShadowColor="#10436A"
+    android:outlineAmbientShadowColor="@color/black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/cricketer_name"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="NULL"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" AGE: "
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/cricketer_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NULL"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL SCORE     : "
+                    android:fontFamily="@font/c"
+                    android:textColor="@color/black"
+                    />
+        <TextView
+            android:id="@+id/cricketer_total_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NULL"
+            android:textColor="@color/black"
+
+            />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HIGHEST SCORE : "
+                    android:fontFamily="@font/c"
+                    android:textColor="@color/black"
+                    />
+    <TextView
+        android:id="@+id/cricketer_highest_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NULL"
+        android:textColor="@color/black"
+
+        />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WICKETS             : "
+                    android:fontFamily="@font/c"
+                    android:textColor="@color/black"
+                    />
+    <TextView
+        android:id="@+id/cricketer_wickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NULL"
+        android:textColor="@color/black"
+
+        />
+            </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
